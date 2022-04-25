@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'digital';
+    src: url('digital.woff') format('woff');
+}
+
+body {
+    font-family: 'digital', cursive;
+    font-size: 4rem;
+    background-color: lightgray;
+
+}
+
+p {
+    color: red;
+    opacity: 0.7;
+}
+
+.interval {
+    color: green;
+    font-size: 2rem;
+}
