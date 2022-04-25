@@ -8,7 +8,7 @@ $destinationTime->setTimestamp('1808662800');
 $presentTime = new DateTime();
 $presentTime->setTimezone(new DateTimeZone('Europe/Paris'));
 
-$interval = $presentTime->diff($destinationTime);
+$interval = $presentTime->diff($destinationTime, absolute: true);
 $timeTravel = ($interval->format('%r%a') * 1440);
 ?>
 
